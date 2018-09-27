@@ -18,7 +18,8 @@
 #include "Arduino.h"
 #include "Print.h"
 
-#include <SD.h>
+#include <Adafruit_SPIFlash.h>
+#include <Adafruit_SPIFlash_FatFs.h>
 #include <SPI.h>
 
 
